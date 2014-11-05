@@ -1,0 +1,342 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+        background-color: #ffffff;
+}
+
+#page
+{
+	
+	margin-bottom: 5px;
+        
+        width: 1250px; 
+	background: tranparent;
+	/*border: 1px solid #C9E0ED;*/
+}
+
+#header
+{
+	margin: 0;
+	padding: 0;
+	/*border-top: 3px solid #C9E0ED;*/
+}
+
+#content
+{
+    margin-left:auto;
+   /* margin-right: auto; */
+    padding: 0;
+    width: 1200px;
+    min-height: 400px;
+}
+
+#sidebar
+{
+	padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+	padding: 10px;
+	margin: 10px 20px;
+	font-size: 0.8em;
+	text-align: center;
+	border-top: 1px solid #C9E0ED;
+}
+
+#logo
+{
+	padding: 10px 20px;
+	font-size: 200%;
+      
+}
+
+#newmenu
+{
+	/*background:white url(bg.gif) repeat-x left top; */
+       
+margin-top: 20px;
+margin-bottom: 10px;
+/*border: solid 1px rgb(217,217,217); */
+height: 30px;
+
+}
+#mainmenu
+{
+	/*background:white url(bg.gif) repeat-x left top; */
+       
+margin-top: 20px;
+margin-bottom: 10px;
+/*border: solid 1px rgb(217,217,217); */
+height: 30px;
+
+}
+
+#mainmenu ul
+{
+	padding:6px 20px 5px 20px;
+	margin:0px;
+        height: 30px;
+}
+
+#mainmenu ul li
+{
+	display: inline;
+        position: relative;
+        height: 30px;
+        width: 200px;
+}
+
+#mainmenu ul li a
+{
+	/*color:#777;*/
+        color: rgb(49,72,159);
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:7px 8px 8px 8px;
+        height: 30px;
+     
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+	/*color: #6399cd;*/
+        color: rgb(49,72,159);
+	background-color:#EFF4FA;
+	text-decoration:none;
+        height: 30px;
+}
+
+
+
+
+#mainmenu ul li:hover > ul { display: block;
+                                    
+background: #f2f2f2; /* Old browsers */
+background: -moz-linear-gradient(top, #f2f2f2 0%, #f9f9f9 32%, #f9f9f9 40%, #f9f9f9 48%, #fdfdfd 58%, #fdfdfd 76%, #fdfdfd 85%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f2f2), color-stop(32%,#f9f9f9), color-stop(40%,#f9f9f9), color-stop(48%,#f9f9f9), color-stop(58%,#fdfdfd), color-stop(76%,#fdfdfd), color-stop(85%,#fdfdfd), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f2f2f2 0%,#f9f9f9 32%,#f9f9f9 40%,#f9f9f9 48%,#fdfdfd 58%,#fdfdfd 76%,#fdfdfd 85%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f2f2f2 0%,#f9f9f9 32%,#f9f9f9 40%,#f9f9f9 48%,#fdfdfd 58%,#fdfdfd 76%,#fdfdfd 85%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f2f2f2 0%,#f9f9f9 32%,#f9f9f9 40%,#f9f9f9 48%,#fdfdfd 58%,#fdfdfd 76%,#fdfdfd 85%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom, #f2f2f2 0%,#f9f9f9 32%,#f9f9f9 40%,#f9f9f9 48%,#fdfdfd 58%,#fdfdfd 76%,#fdfdfd 85%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+border: solid 1px rgb(217,217,217); 
+ }
+#mainmenu ul li ul { display: none; min-width: 180px; position: absolute; top: 24px; left:-20px;
+                    background: white; color: #fff; height: auto; rounded-corner:5px;
+}
+ 
+#mainmenu ul li ul li a { color: rgb(49,72,159); padding: 4px 14px; display: block; }
+ 
+#mainmenu ul li ul li.active a,
+#mainmenu ul li ul li a:hover { color: #fff; }
+
+/*------------------------------ MAIN MENU ---------------------------------------*/
+
+#menu-top ul { list-style: none; margin: 0; padding: 0; position: relative; height: 30px; }
+ 
+#menu-top ul li { display: block; height: 28px; float: left; overflow: visible; }
+#menu-top ul li:hover > ul { display: block; }
+ 
+#menu-top ul li a { float: left; display: block; }
+ 
+#menu-top ul li ul { display: none; position: absolute; top: 100%;
+                    background: #000; color: #fff; height: auto;
+}
+ 
+#menu-top ul li ul li a { color: #ccc; padding: 4px 14px; display: block; }
+ 
+#menu-top ul li ul li.active a,
+#menu-top ul li ul li a:hover { color: #fff; }
+
+
+
+
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+	padding:.8em;
+	margin-bottom:1em;
+	border:2px solid #ddd;
+}
+
+div.flash-error
+{
+	background:#FBE3E4;
+	color:#8a1f11;
+	border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+	background:#FFF6BF;
+	color:#514721;
+	border-color:#FFD324;
+}
+
+div.flash-success
+{
+	background:#E6EFC2;
+	color:#264409;
+	border-color:#C6D880;
+}
+
+div.flash-error a
+{
+	color:#8a1f11;
+}
+
+div.flash-notice a
+{
+	color:#514721;
+}
+
+div.flash-success a
+{
+	color:#264409;
+}
+
+div.form .rememberMe label
+{
+	display: inline;
+}
+
+div.view
+{
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #C9E0ED;
+}
+div.view2
+{
+        height: 25px;
+	padding: 10px;
+	/*margin: 5px 0;*/
+	border-bottom: 1px solid #ddd;
+    
+}
+div.view3
+{
+        height: 25px; 
+	padding: 10px;
+	/*margin: 5px 0;*/
+	border-bottom: 1px solid #ddd;
+        
+    
+}
+
+div.project_view
+{
+        height: 200px; width: 600px;
+	padding: 10px;
+	margin: 10px 0 20px 0;
+	border: 2px solid rgb(89,89,89);
+        border-radius: 10px;
+        
+    
+}
+
+
+div.view2:hover
+{
+    background-color: #f2f5f7;
+}
+
+div.breadcrumbs
+{
+	font-size: 0.9em;
+	padding: 5px 20px;
+}
+
+div.breadcrumbs span
+{
+	font-weight: bold;
+}
+
+div.search-form
+{
+	padding: 10px;
+	margin: 10px 0;
+	background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}

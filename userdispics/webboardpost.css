@@ -1,0 +1,441 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 มิ.ย. 2557, 21:53:35
+    Author     : chaloemchai
+*/
+
+
+.post_container {
+	min-height: 240px;
+	width: 650px;
+	border-radius: 7px;
+	border: 1px solid rgb(192,192,192);
+        margin-left: auto;
+        margin-right: auto;
+	
+}
+.post_header {
+	
+	/*//background-color: rgb(255,255,255);*/
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgb(192,192,192);
+        min-height:120px;
+}
+.titletext{
+	/*max-width: 420px;*/
+	height: 80px;
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	overflow: hidden;
+	/*margin-right: auto;*/
+	margin-left: auto;
+	/*margin-top: 10px;*/
+	font-size: 18px;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: rgb(89,149,222);
+	font-weight: bold;
+        vertical-align: bottom;
+	/*padding-top: 20px;*/
+ }
+.post_content {
+	min-height: 120px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #4A4A4A;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	line-height: 20px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 7px;
+}
+.post_footer { 
+	height: 70px;
+	background-color: #F4F5F6;
+	text-align: justify;
+        border-radius: 0 0 7px 7px;
+}
+.poster_profile {
+	height: 100%;
+	width: 150px;
+	text-align: center;
+	float: left;
+}
+.time_ago {
+	width: 150px;
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #808080;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	//padding-left: 10px;
+}
+.poster_image {
+	margin-top: 10px;
+	border-radius: 5px;
+    width: 70px;
+    height: 70px;
+}
+.poster_name {
+	font-family: "Comic Sans MS", cursive, serif;
+	font-size: 12px;
+	color: #FF80C0;
+	margin-top: 10px;
+}
+.post_title_container {
+	float: left;
+	min-height: 120px;
+	width: 420px;
+        margin-left: 5px;
+}
+.post_title {
+	min-height: 80px;
+        margin-top: 20px;
+        vertical-align: bottom;
+}
+.post_detail {
+	height: 20px;
+}
+.social_image {
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+}
+.numberofvote {
+	height: 30px;
+	width: 200px;
+	background-color: #D5F4AE;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #81D31A;
+	font-family: "Arial ", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+}
+.votenumber {
+	font-size: 16px;
+	color: #81D31A;
+	font-family: "Arial black", Helvetica, sans-serif;
+}
+
+
+
+
+.in_q {
+	color: rgb(255,192,0);
+}
+.in_t {
+	color: rgb(89,104,176);
+}
+
+.in_h {
+	color: rgb(142,202,19);
+}
+.webboard_poster {
+	width: 70px;
+	float: right;
+	color: rgb(255,91,91);
+	text-align: right;
+	font-style: normal;
+	padding-right: 5px;
+	font-weight: bold;
+}
+.prefix {
+	width: 20px;
+	text-align: center;
+	padding-left: 5px;
+	float: left;
+	color: rgb(255,192,0);
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 3px;
+}
+.webboard_header {
+	width: 650px;
+	margin-bottom: 40px;
+}
+.webboard_all {
+	width: 100px;
+	height: 53px;
+	float: left;
+	text-align: center;
+	vertical-align: bottom;
+	padding-top: 12px;
+	margin-left: 20px;
+	font-size: 24px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 20px;
+	color: rgb(245,118,97);
+	border-bottom: 5px;
+	cursor: pointer;
+}
+.webboard_all:hover {
+    border-bottom-style: solid;
+	border-bottom-color: rgb(245,118,97);
+}
+.webboard_howto {
+	text-align: center;
+	float: left;
+	height: 53px;
+	width: 100px;
+	padding-top: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	margin-left: 50px;
+	color: rgb(216,245,154);
+	border-bottom: 5px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+.webboard_howto:hover {
+    border-bottom-style: solid;
+	border-bottom-color: rgb(142,202,19);
+}
+
+.webboard_tellus {
+	text-align: center;
+	float: left;
+	height: 53px;
+	width: 100px;
+	font-size: 24px;
+	padding-top: 12px;
+	margin-left: 50px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: rgb(190,197,224);
+	border-bottom: 5px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+.webboard_tellus:hover {
+    border-bottom-style: solid;
+	border-bottom-color: rgb(89,104,176);
+}
+.webboard_QnA {
+	height: 53px;
+	width: 100px;
+	float: left;
+	padding-top: 12px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	margin-left: 50px;
+	text-align: center;
+	color: rgb(255,231,157);
+	border-bottom: 5px;
+	padding-bottom: 20px;
+	cursor: pointer;
+}
+.webboard_QnA:hover {
+    border-bottom-style: solid;
+	border-bottom-color: rgb(255,192,0);
+}
+.webboard_header_last {
+	clear:both;
+}
+
+.restricted{
+	height: 20px; overflow:hidden;
+}
+.font_pink{
+    color: pink;
+}
+
+.post_write {
+	width: 650px;
+	min-height: 320px;
+        margin: 0 auto;
+	-webkit-box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 8px  0.5px rgba(0, 0, 0, 0.2);
+	box-shadow:  2px 2px 8px 0.5px rgba(0, 0, 0, 0.2);
+	background-color: #BEEBDF;
+	margin-top: 30px;
+	border: 7px solid #FFF;
+        padding-bottom: 70px;
+        
+}
+
+.flat_red_submitbtn {
+	background-color: #F78D7C;
+	height: 32px;
+	width: 150px;
+	-webkit-box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 2px 2px 8px  0.5px rgba(0, 0, 0, 0.4);
+	box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0.4);
+	vertical-align: middle;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #FFF;
+	font-weight: normal;
+	cursor:pointer;
+}
+.flat_red_submitbtn:active {
+	
+	-webkit-box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0);
+	-moz-box-shadow: 2px 2px 8px  0.5px rgba(0, 0, 0, 0);
+	box-shadow: 2px 2px 8px 0.5px rgba(0, 0, 0, 0);
+
+}
+.float_btn{
+    float: right; margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.post_write_title {
+	background-color: #92deca;
+	height: 45px;
+	padding-top: 15px;
+	color: #333;
+	font-weight: bolder;
+
+	font-family: "Angsana UPC", "Cordia New", "Georgia", "Times New Roman", "Times", "serif";
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+}
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 0 !important;
+}
+
+.numberofvote {
+	height: 30px;
+	width: 200px;
+	background-color: #D5F4AE;
+	border-radius: 5px;
+	font-size: 12px;
+	color: #81D31A;
+	font-family: "Arial ", Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 5px;
+}
+.votenumber {
+	font-size: 16px;
+	color: #81D31A;
+	font-family: "Arial black", Helvetica, sans-serif;
+}
+
+.float_right{
+    float: right;
+}
+
+
+
+/*COMMENT PART*/
+
+
+.comment_wrapper {
+	min-height: 200px;
+	width: 650px;
+	border-radius: 7px;
+	
+        margin-left: auto;
+        margin-right: auto;
+	boder-bottom: none;
+        margin-top: 30px;
+	
+}
+
+.comment_header {
+	
+	/*//background-color: rgb(255,255,255);*/
+	
+        min-height:90px;
+}
+
+ .commenttext{
+    height: 60px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-left: auto;
+    font-size: 12px;
+    font-family: "Helvetica Neue", "Arial", "Helvetica", "sans-serif";
+    color: #FFF;
+    font-weight: bold;
+    vertical-align: bottom;
+    background-color: #999;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding: 5px;
+}
+    
+ 
+
+.comment_content {
+	min-height: 80px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #4A4A4A;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+.commentator_profile {
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	float: left;
+}
+
+.commentator_name {
+	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: #808080;
+	float: left;
+	font-family: "Comic Sans MS", "cursive", "serif";
+	font-size: 16px;
+	color: #F78D7C;
+	margin-left: 5px;
+        min-width: 50px;
+}
+
+.comment_container {
+	float: left;
+	min-height: 80px;
+	width: 420px;
+	margin-left: 10px;
+}
+.comment_title {
+	min-height: 30px;
+	margin-top: 15px;
+	vertical-align: bottom;
+}
+
+
+
+
+
+
+.comment_detail{
+	margin-top: 7px;
+}
+
+.comment_opt{
+	float: right;
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
